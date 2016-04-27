@@ -8,13 +8,12 @@
  * Author: 
  */
 
- theUILang.peerComment		= "Add comment";
+ theUILang.peerComment 		= "Add comment";
  theUILang.peerCommentLabel	= "Enter new comment for peer";
  theUILang.commentName		= "Comment";
  theUILang.countryName		= "Ország";
 
  theUILang.country = new Array();
- theUILang.country[ "ac" ] = "Ascension-sziget";
  theUILang.country[ "ad" ] = "Andorra";
  theUILang.country[ "ae" ] = "Egyesült Arab Emirátusok";
  theUILang.country[ "af" ] = "Afganisztán";
@@ -44,7 +43,6 @@
  theUILang.country[ "bm" ] = "Bermuda";
  theUILang.country[ "bn" ] = "Brunei";
  theUILang.country[ "bo" ] = "Bolívia";
- theUILang.country[ "bq" ] = "Bonaire";
  theUILang.country[ "br" ] = "Brazília";
  theUILang.country[ "bs" ] = "Bahamák";
  theUILang.country[ "bt" ] = "Bhután";
@@ -67,10 +65,9 @@
  theUILang.country[ "cr" ] = "Costa Rica";
  theUILang.country[ "cu" ] = "Kuba";
  theUILang.country[ "cv" ] = "Cape Verde";
- theUILang.country[ "cw" ] = "Curaçao";
  theUILang.country[ "cx" ] = "Karácsony-sziget";
  theUILang.country[ "cy" ] = "Ciprus";
- theUILang.country[ "cz" ] = "Csehország";
+ theUILang.country[ "cz" ] = "Cseh Köztársaság";
  theUILang.country[ "de" ] = "Németország";
  theUILang.country[ "dj" ] = "Dzsibuti";
  theUILang.country[ "dk" ] = "Dánia";
@@ -94,7 +91,7 @@
  theUILang.country[ "ga" ] = "Gabon";
  theUILang.country[ "gb" ] = "Egyesült Királyság";
  theUILang.country[ "gd" ] = "Grenada";
- theUILang.country[ "ge" ] = "Grúzia";
+ theUILang.country[ "ge" ] = "Georgia";
  theUILang.country[ "gf" ] = "Francia Guyana";
  theUILang.country[ "gg" ] = "Guernsey";
  theUILang.country[ "gh" ] = "Ghána";
@@ -110,7 +107,7 @@
  theUILang.country[ "gu" ] = "Guam";
  theUILang.country[ "gw" ] = "Guinea-Bissau";
  theUILang.country[ "gy" ] = "Guyana";
- theUILang.country[ "hk" ] = "Hongkong";
+ theUILang.country[ "hk" ] = "Hong Kong";
  theUILang.country[ "hm" ] = "Heard-sziget és McDonald-szigetek";
  theUILang.country[ "hn" ] = "Honduras";
  theUILang.country[ "hr" ] = "Horvátország";
@@ -119,7 +116,7 @@
  theUILang.country[ "id" ] = "Indonézia";
  theUILang.country[ "ie" ] = "Írország";
  theUILang.country[ "il" ] = "Izrael";
- theUILang.country[ "im" ] = "Man";
+ theUILang.country[ "im" ] = "Isle of Man";
  theUILang.country[ "in" ] = "India";
  theUILang.country[ "io" ] = "Brit Indiai-óceáni terület";
  theUILang.country[ "iq" ] = "Irak";
@@ -128,7 +125,7 @@
  theUILang.country[ "it" ] = "Olaszország";
  theUILang.country[ "je" ] = "Jersey";
  theUILang.country[ "jm" ] = "Jamaica";
- theUILang.country[ "jo" ] = "Jordánia";
+ theUILang.country[ "jo" ] = "Jordan";
  theUILang.country[ "jp" ] = "Japán";
  theUILang.country[ "ke" ] = "Kenya";
  theUILang.country[ "kg" ] = "Kirgizisztán";
@@ -149,7 +146,7 @@
  theUILang.country[ "lr" ] = "Libéria";
  theUILang.country[ "ls" ] = "Lesotho";
  theUILang.country[ "lt" ] = "Litvánia";
- theUILang.country[ "lu" ] = "Luxemburg";
+ theUILang.country[ "lu" ] = "luxemburgi";
  theUILang.country[ "lv" ] = "Lettország";
  theUILang.country[ "ly" ] = "Líbia";
  theUILang.country[ "ma" ] = "Marokkó";
@@ -162,7 +159,7 @@
  theUILang.country[ "ml" ] = "Mali";
  theUILang.country[ "mm" ] = "Myanmar";
  theUILang.country[ "mn" ] = "Mongólia";
- theUILang.country[ "mo" ] = "Makaó";
+ theUILang.country[ "mo" ] = "Macao";
  theUILang.country[ "mp" ] = "Északi-Mariana-szigetek";
  theUILang.country[ "mq" ] = "Martinique";
  theUILang.country[ "mr" ] = "Mauritánia";
@@ -195,7 +192,7 @@
  theUILang.country[ "pk" ] = "Pakisztán";
  theUILang.country[ "pl" ] = "Lengyelország";
  theUILang.country[ "pm" ] = "Saint-Pierre és Miquelon";
- theUILang.country[ "pn" ] = "Pitcairn-szigetek";
+ theUILang.country[ "pn" ] = "Pitcairn";
  theUILang.country[ "pr" ] = "Puerto Rico";
  theUILang.country[ "ps" ] = "Palesztina";
  theUILang.country[ "pt" ] = "Portugália";
@@ -213,9 +210,9 @@
  theUILang.country[ "sd" ] = "Szudán";
  theUILang.country[ "se" ] = "Svédország";
  theUILang.country[ "sg" ] = "Szingapúr";
- theUILang.country[ "sh" ] = "Szent Ilona";
+ theUILang.country[ "sh" ] = "Saint Helena";
  theUILang.country[ "si" ] = "Szlovénia";
- theUILang.country[ "sj" ] = "Spitzbergák és Jan Mayen";
+ theUILang.country[ "sj" ] = "Svalbard és Jan Mayen";
  theUILang.country[ "sk" ] = "Szlovákia";
  theUILang.country[ "sl" ] = "Sierra Leone";
  theUILang.country[ "sm" ] = "San Marino";
@@ -223,10 +220,8 @@
  theUILang.country[ "so" ] = "Szomália";
  theUILang.country[ "sr" ] = "Suriname";
  theUILang.country[ "ss" ] = "Dél-Szudán";
- theUILang.country[ "st" ] = "São Tomé és Príncipe";
- theUILang.country[ "su" ] = "Oroszország";
- theUILang.country[ "sv" ] = "Salvador";
- theUILang.country[ "sx" ] = "Sint Maarten";
+ theUILang.country[ "st" ] = "Sao Tomé és Príncipe";
+ theUILang.country[ "sv" ] = "El Salvador";
  theUILang.country[ "sy" ] = "Szíria";
  theUILang.country[ "sz" ] = "Szváziföld";
  theUILang.country[ "tc" ] = "Turks-és Caicos-szigetek";
@@ -241,6 +236,7 @@
  theUILang.country[ "tn" ] = "Tunézia";
  theUILang.country[ "to" ] = "Tonga";
  theUILang.country[ "tr" ] = "Törökország";
+ theUILang.country[ "tp" ] = "Portugál-Timor";
  theUILang.country[ "tt" ] = "Trinidad és Tobago";
  theUILang.country[ "tv" ] = "Tuvalu";
  theUILang.country[ "tw" ] = "Tajvan";
@@ -248,6 +244,7 @@
  theUILang.country[ "ua" ] = "Ukrajna";
  theUILang.country[ "ug" ] = "Uganda";
  theUILang.country[ "uk" ] = "Egyesült Királyság";
+ theUILang.country[ "um" ] = "Egyesült Államok külső szigetei";
  theUILang.country[ "un" ] = "Ismeretlen";
  theUILang.country[ "us" ] = "Egyesült Államok";
  theUILang.country[ "uy" ] = "Uruguay";

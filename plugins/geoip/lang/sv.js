@@ -8,13 +8,12 @@
  * Author: Magnus Holm (holmen@brasse.se) 
  */
 
- theUILang.peerComment		= "Lägg till kommentar";
+ theUILang.peerComment 		= "Lägg till kommentar";
  theUILang.peerCommentLabel	= "Ange ny kommentar för peer";
  theUILang.commentName		= "Kommentar";
  theUILang.countryName		= "Land";
 
  theUILang.country = new Array();
- theUILang.country[ "ac" ] = "Ascension";
  theUILang.country[ "ad" ] = "Andorra";
  theUILang.country[ "ae" ] = "Förenade Arabemiraten";
  theUILang.country[ "af" ] = "Afghanistan";
@@ -44,7 +43,6 @@
  theUILang.country[ "bm" ] = "Bermuda";
  theUILang.country[ "bn" ] = "Brunei";
  theUILang.country[ "bo" ] = "Bolivia";
- theUILang.country[ "bq" ] = "Bonaire";
  theUILang.country[ "br" ] = "Brasilien";
  theUILang.country[ "bs" ] = "Bahamas";
  theUILang.country[ "bt" ] = "Bhutan";
@@ -67,7 +65,6 @@
  theUILang.country[ "cr" ] = "Costa Rica";
  theUILang.country[ "cu" ] = "Kuba";
  theUILang.country[ "cv" ] = "Kap Verde";
- theUILang.country[ "cw" ] = "Curaçao";
  theUILang.country[ "cx" ] = "Julön";
  theUILang.country[ "cy" ] = "Cypern";
  theUILang.country[ "cz" ] = "Tjeckien";
@@ -224,9 +221,7 @@
  theUILang.country[ "sr" ] = "Surinam";
  theUILang.country[ "ss" ] = "Sydsudan";
  theUILang.country[ "st" ] = "Sao Tomé och Principe";
- theUILang.country[ "su" ] = "Ryssland";
  theUILang.country[ "sv" ] = "El Salvador";
- theUILang.country[ "sx" ] = "Sint Maarten";
  theUILang.country[ "sy" ] = "Syrien";
  theUILang.country[ "sz" ] = "Swaziland";
  theUILang.country[ "tc" ] = "Turks- och Caicosöarna";
@@ -241,6 +236,7 @@
  theUILang.country[ "tn" ] = "Tunisien";
  theUILang.country[ "to" ] = "Tonga";
  theUILang.country[ "tr" ] = "Turkiet";
+ theUILang.country[ "tp" ] = "Portugisiska Timor";
  theUILang.country[ "tt" ] = "Trinidad och Tobago";
  theUILang.country[ "tv" ] = "Tuvalu";
  theUILang.country[ "tw" ] = "Taiwan";
@@ -248,6 +244,7 @@
  theUILang.country[ "ua" ] = "Ukraina";
  theUILang.country[ "ug" ] = "Uganda";
  theUILang.country[ "uk" ] = "Storbritannien";
+ theUILang.country[ "um" ] = "Förenta staternas mindre öar i Oceanien och Västindien";
  theUILang.country[ "un" ] = "Okänd";
  theUILang.country[ "us" ] = "Förenta staterna";
  theUILang.country[ "uy" ] = "Uruguay";

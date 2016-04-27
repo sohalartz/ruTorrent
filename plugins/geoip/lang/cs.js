@@ -8,13 +8,12 @@
  * Author: 
  */
 
- theUILang.peerComment		= "Add comment";
+ theUILang.peerComment 		= "Add comment";
  theUILang.peerCommentLabel	= "Enter new comment for peer";
  theUILang.commentName		= "Comment";
  theUILang.countryName		= "Země";
 
  theUILang.country = new Array();
- theUILang.country[ "ac" ] = "Ascension";
  theUILang.country[ "ad" ] = "Andorra";
  theUILang.country[ "ae" ] = "Spojené arabské emiráty";
  theUILang.country[ "af" ] = "Afghánistán";
@@ -44,7 +43,6 @@
  theUILang.country[ "bm" ] = "Bermudy";
  theUILang.country[ "bn" ] = "Brunej";
  theUILang.country[ "bo" ] = "Bolívie";
- theUILang.country[ "bq" ] = "Bonaire";
  theUILang.country[ "br" ] = "Brazílie";
  theUILang.country[ "bs" ] = "Bahamy";
  theUILang.country[ "bt" ] = "Bhútán";
@@ -54,9 +52,9 @@
  theUILang.country[ "bz" ] = "Belize";
  theUILang.country[ "ca" ] = "Kanada";
  theUILang.country[ "cc" ] = "Kokosové ostrovy";
- theUILang.country[ "cd" ] = "Kongo-Kinshasa";
+ theUILang.country[ "cd" ] = "Demokratická republika Kongo";
  theUILang.country[ "cf" ] = "Středoafrická republika";
- theUILang.country[ "cg" ] = "Kongo-Brazzaville";
+ theUILang.country[ "cg" ] = "Kongo";
  theUILang.country[ "ch" ] = "Švýcarsko";
  theUILang.country[ "ci" ] = "Pobřeží slonoviny";
  theUILang.country[ "ck" ] = "Cookovy ostrovy";
@@ -67,7 +65,6 @@
  theUILang.country[ "cr" ] = "Kostarika";
  theUILang.country[ "cu" ] = "Kuba";
  theUILang.country[ "cv" ] = "Kapverdy";
- theUILang.country[ "cw" ] = "Curaçao";
  theUILang.country[ "cx" ] = "Vánoční ostrov";
  theUILang.country[ "cy" ] = "Kypr";
  theUILang.country[ "cz" ] = "Česko";
@@ -87,7 +84,7 @@
  theUILang.country[ "eu" ] = "Evropská unie";
  theUILang.country[ "fi" ] = "Finsko";
  theUILang.country[ "fj" ] = "Fidži";
- theUILang.country[ "fk" ] = "Falklandy";
+ theUILang.country[ "fk" ] = "Falklandy (Malvíny)";
  theUILang.country[ "fm" ] = "Mikronésie";
  theUILang.country[ "fo" ] = "Faerské ostrovy";
  theUILang.country[ "fr" ] = "Francie";
@@ -197,7 +194,7 @@
  theUILang.country[ "pm" ] = "Saint-Pierre a Miquelon";
  theUILang.country[ "pn" ] = "Pitcairnovy ostrovy";
  theUILang.country[ "pr" ] = "Portoriko";
- theUILang.country[ "ps" ] = "Palestina";
+ theUILang.country[ "ps" ] = "Palestinská autonomie";
  theUILang.country[ "pt" ] = "Portugalsko";
  theUILang.country[ "pw" ] = "Palau";
  theUILang.country[ "py" ] = "Paraguay";
@@ -224,9 +221,7 @@
  theUILang.country[ "sr" ] = "Surinam";
  theUILang.country[ "ss" ] = "Jižní Súdán";
  theUILang.country[ "st" ] = "Svatý Tomáš a Princův ostrov";
- theUILang.country[ "su" ] = "Rusko";
  theUILang.country[ "sv" ] = "Salvador";
- theUILang.country[ "sx" ] = "Sint Maarten";
  theUILang.country[ "sy" ] = "Sýrie";
  theUILang.country[ "sz" ] = "Svazijsko";
  theUILang.country[ "tc" ] = "Turks a Caicos";
@@ -241,6 +236,7 @@
  theUILang.country[ "tn" ] = "Tunisko";
  theUILang.country[ "to" ] = "Tonga";
  theUILang.country[ "tr" ] = "Turecko";
+ theUILang.country[ "tp" ] = "Portugalsky Timor";
  theUILang.country[ "tt" ] = "Trinidad a Tobago";
  theUILang.country[ "tv" ] = "Tuvalu";
  theUILang.country[ "tw" ] = "Tchaj-wan";
@@ -248,6 +244,7 @@
  theUILang.country[ "ua" ] = "Ukrajina";
  theUILang.country[ "ug" ] = "Uganda";
  theUILang.country[ "uk" ] = "Spojené království";
+ theUILang.country[ "um" ] = "Menší odlehlé ostrovy USA";
  theUILang.country[ "un" ] = "Neznámý";
  theUILang.country[ "us" ] = "Spojené státy americké";
  theUILang.country[ "uy" ] = "Uruguay";

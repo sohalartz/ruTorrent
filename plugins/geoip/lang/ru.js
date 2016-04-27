@@ -8,13 +8,12 @@
  * Author: 
  */
 
- theUILang.peerComment		= "Добавить комментарий";
+ theUILang.peerComment 		= "Добавить комментарий";
  theUILang.peerCommentLabel	= "Введите комментарий";
  theUILang.commentName		= "Комментарий";
  theUILang.countryName		= "Страна";
 
  theUILang.country = new Array();
- theUILang.country[ "ac" ] = "Остров Вознесения";
  theUILang.country[ "ad" ] = "Андорра";
  theUILang.country[ "ae" ] = "ОАЭ";
  theUILang.country[ "af" ] = "Афганистан";
@@ -44,7 +43,6 @@
  theUILang.country[ "bm" ] = "Бермуды";
  theUILang.country[ "bn" ] = "Бруней";
  theUILang.country[ "bo" ] = "Боливия";
- theUILang.country[ "bq" ] = "Бонэйр";
  theUILang.country[ "br" ] = "Бразилия";
  theUILang.country[ "bs" ] = "Багамы";
  theUILang.country[ "bt" ] = "Бутан";
@@ -67,7 +65,6 @@
  theUILang.country[ "cr" ] = "Коста-Рика";
  theUILang.country[ "cu" ] = "Куба";
  theUILang.country[ "cv" ] = "Кабо-Верде";
- theUILang.country[ "cw" ] = "Кюрасао";
  theUILang.country[ "cx" ] = "Остров Рождества";
  theUILang.country[ "cy" ] = "Кипр";
  theUILang.country[ "cz" ] = "Чехия";
@@ -224,9 +221,7 @@
  theUILang.country[ "sr" ] = "Суринам";
  theUILang.country[ "ss" ] = "Южный Судан";
  theUILang.country[ "st" ] = "Сан-Томе и Принсипи";
- theUILang.country[ "su" ] = "Россия";
  theUILang.country[ "sv" ] = "Сальвадор";
- theUILang.country[ "sx" ] = "Синт-Мартен";
  theUILang.country[ "sy" ] = "Сирия";
  theUILang.country[ "sz" ] = "Свазиленд";
  theUILang.country[ "tc" ] = "Тёркс и Кайкос";
@@ -241,6 +236,7 @@
  theUILang.country[ "tn" ] = "Тунис";
  theUILang.country[ "to" ] = "Тонга";
  theUILang.country[ "tr" ] = "Турция";
+ theUILang.country[ "tp" ] = "Португальский Тимор";
  theUILang.country[ "tt" ] = "Тринидад и Тобаго";
  theUILang.country[ "tv" ] = "Тувалу";
  theUILang.country[ "tw" ] = "Тайвань";
@@ -248,6 +244,7 @@
  theUILang.country[ "ua" ] = "Украина";
  theUILang.country[ "ug" ] = "Уганда";
  theUILang.country[ "uk" ] = "Великобритания";
+ theUILang.country[ "um" ] = "Внешние малые острова (США)";
  theUILang.country[ "un" ] = "Неизвестно";
  theUILang.country[ "us" ] = "США";
  theUILang.country[ "uy" ] = "Уругвай";

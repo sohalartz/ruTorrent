@@ -2,7 +2,7 @@
 
 class KinozalTVAccount extends commonAccount
 {
-	public $url = "http://kinozal.me";
+	public $url = "http://kinozal.tv";
 
 	protected function isOK($client)
 	{
@@ -26,6 +26,6 @@ class KinozalTVAccount extends commonAccount
 	}
 	public function test($url)
 	{
-		return(preg_match( "/(\.|\/)kinozal.(tv|me)\//si", $url ));
+		return(preg_match( "/(\.|\/)kinozal.tv\/download.php/si", $url ));
 	}	
 }

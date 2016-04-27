@@ -18,7 +18,6 @@ switch($_REQUEST['cmd'])
 	}
 	case "list":
 	{
-		set_time_limit(0);
 		$ret = rTaskManager::obtain();
 		break;		
 	}

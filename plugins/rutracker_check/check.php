@@ -6,9 +6,6 @@ require_once( "../../php/rtorrent.php" );
 require_once( "trackers/rutracker.php" );
 require_once( "trackers/anidub.php" );
 require_once( "trackers/kinozal.php" );
-require_once( "trackers/nnmclub.php" );
-require_once( "trackers/tapocheknet.php" );
-require_once( "trackers/tfile.php" );
 
 class ruTrackerChecker
 {
@@ -23,20 +20,15 @@ class ruTrackerChecker
 	const MAX_LOCK_TIME		= 900;	// 15 min
 	
 	private static $TRACKERS = array();
-	private static $ANNOUNCES = array();	
 
-	static public function registerTracker($commentFiler, $announceFilter, $handler)
-	{
-		if(!array_key_exists($commentFiler, self::$TRACKERS)) 
-		{
-			self::$TRACKERS[$commentFiler] = $handler;
-			self::$ANNOUNCES[] = $announceFilter;
+	static public function registerTracker($name, $handler){
+		if (!array_key_exists($name, self::$TRACKERS)) {
+			self::$TRACKERS[$name] = $handler;
 		}
 	}
 
-	static public function supportedTrackers()
-	{
-		return(self::$ANNOUNCES);
+	static public function supportedTrackers(){
+		return array_keys(self::$TRACKERS);
 	}
 
 	static protected function setState( $hash, $state )
@@ -119,10 +111,8 @@ class ruTrackerChecker
 	static public function run_ex($hash, $fname){
 		$torrent = new Torrent( $fname );
 		if(!$torrent->errors()){
-			foreach (self::$TRACKERS as $key => $value)
-			{
-				if( preg_match($key, $torrent->comment()) ) 
-				{
+			foreach (self::$TRACKERS as $key => $value){
+				if (strpos($torrent->comment(), $key) !==FALSE) {
 					return call_user_func($value, $torrent->comment(), $hash, $torrent);
 				}
 			}

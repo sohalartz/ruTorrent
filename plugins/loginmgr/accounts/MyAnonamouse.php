@@ -10,7 +10,7 @@ class MyAnonamouseAccount extends commonAccount
 
 	protected function isOK($client)
 	{
-		return(strpos($client->results, '<input type="password"')===false);
+		return(strpos($client->results, '<form method="post" action="takelogin.php">')===false);
 	}
 	protected function login($client,$login,$password,&$url,&$method,&$content_type,&$body,&$is_result_fetched)
         {
@@ -19,8 +19,9 @@ class MyAnonamouseAccount extends commonAccount
                 {
                         $client->setcookies();
                         $client->referer = $this->url;
+
                         if($client->fetch( $this->url."/takelogin.php","POST","application/x-www-form-urlencoded",
-                                "email=".rawurlencode($login)."&password=".rawurlencode($password) ))
+                                "username=".rawurlencode($login)."&password=".rawurlencode($password) ))
                         {
                                 $client->setcookies();
                                 return(true);
