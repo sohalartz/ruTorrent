@@ -1,3 +1,3 @@
 <?php
 
-$defaultTheme = "FlatUI_Light"; // May be "", "Oblivion", "Dark", "Blue" or "Acid"
+$defaultTheme = "QuickBox-Dark"; // May be "", "Oblivion", "Dark", "Blue" or "Acid"
